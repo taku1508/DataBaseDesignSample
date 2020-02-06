@@ -40,7 +40,7 @@ has_many : messages
 |------|----|-------|
 |name|string|null: false, unique: true|
 ### Association
-has_many : users
+has_many : groups_users
 has_many : users , throught : groups_users
 has_many : messages
 
