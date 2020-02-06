@@ -38,7 +38,7 @@ has_many : messages
 ## groups テーブル
 |Column|Type|Options|
 |------|----|-------|
-|group_name|string|null: false, unique: true|
+|name|string|null: false, unique: true|
 ### Association
 has_many : users
 has_many : users , throught : groups_users
